@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.herocontainer {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(44deg, #4e88ff, #33c2ae 69%);
+  background-size: cover;
+  background-position: center center;
+}
+
+.herocontainer .heroflex {
+  margin: auto;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.herocontainer .heroflex img {
+  width: 650px;
+}
+
+.herocontainer .herocontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.herocontainer .herocontent h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.herocontainer .herocontent p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.herocontainer .herocontent .herobutton {
+  width: 62%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+  margin-top: 1.23rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.herocontainer .herocontent .herobutton:hover,
+.herocontainer .herocontent .herobutton:active {
+  background-color: white;
+  color: black;
+  border-radius: 45px;
+}
+
+.boxgrid {
+  width: 100%;
+}
+
+.boxgrid .boxgridflex {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  -webkit-box-shadow: 0px 10px 40px rgba(100, 100, 100, 0.158);
+          box-shadow: 0px 10px 40px rgba(100, 100, 100, 0.158);
+}
+
+.boxgrid .boxgridflex .boxgriditem {
+  width: 33%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 30px;
+  text-align: center;
+}
+
+.boxgrid .boxgridflex .boxgriditem .br {
+  border-right: 1px solid black;
+}
+
+.boxgrid .boxgridflex .boxgriditem .boxgrid-button {
+  width: 38%;
+  padding: 0.5rem 1rem;
+  background-color: #3d75d0;
+  color: white;
+}
+
+.br {
+  border-right: 1px solid #e5e5e5;
+}
+
+.navbar {
+  background: transparent !important;
+  width: 1200px !important;
+  margin: auto;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: absolute;
+  padding: 0 !important;
+}
+
+.navbar a {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
