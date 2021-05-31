@@ -183,36 +183,6 @@ p {
   background-color: #215aa0;
 }
 
-.boxgrid .bgi1 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
-}
-
-.boxgrid .bgi2 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-}
-
-.boxgrid .bgi3 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-
-.boxgrid .bgi4 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
-}
-
-.boxgrid .bgi5 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-}
-
-.boxgrid .bgi6 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-
 .mobileadvert {
   width: 100%;
   background-color: #f0f2f5;
