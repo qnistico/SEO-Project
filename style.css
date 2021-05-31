@@ -24,7 +24,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: linear-gradient(44deg, #4e88ff, #33c2ae 69%);
+  background: linear-gradient(44deg, #4e88ff, #33c2ae 68%);
   background-size: cover;
   background-position: center center;
 }
@@ -189,6 +189,7 @@ p {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: relative;
+  min-height: 200vh;
 }
 
 .mobileadvert .mobileadvertflex {
@@ -214,6 +215,7 @@ p {
   margin: auto;
   -webkit-transform: skewX(-5deg);
           transform: skewX(-5deg);
+  position: relative;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent {
@@ -222,15 +224,24 @@ p {
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent h2 {
-  margin-bottom: 2rem;
-}
-
-.mobileadvert .mobileadvertflex .mobileadvertcontent p {
+  color: #3d75d0;
+  text-align: center;
+  font-weight: 700;
   margin-bottom: 2rem;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li {
   margin-bottom: 2rem;
+  list-style-type: none;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.mobileadvert .mobileadvertflex .mobileadvertcontent li span {
+  color: #3d75d0;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 5px;
 }
 
 .description {
