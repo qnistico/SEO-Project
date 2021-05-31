@@ -83,6 +83,8 @@ flex-flow: column;
 		top: -3rem;
 		justify-content: center;
 		margin: auto;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
 
 		.boxgriditem {
@@ -128,6 +130,24 @@ flex-flow: column;
 			}
 		}
 	}
+	.bgi1 {
+		animation-delay: 0.1s;
+	}
+	.bgi2 {
+		animation-delay: 0.3s;
+	}
+	.bgi3 {
+		animation-delay: 0.5s;
+	}
+	.bgi4 {
+		animation-delay: 0.1s;
+	}
+	.bgi5 {
+		animation-delay: 0.3s;
+	}
+	.bgi6 {
+		animation-delay: 0.5s;
+	}
 }
 
 .mobileadvert {
@@ -168,6 +188,7 @@ flex-flow: column;
 			h4 {
 				font-family: 'Open Sans', sans-serif;
 				font-weight: 600;
+				margin-bottom: 1rem;
 			}
 			li {
 				list-style-type: none;
