@@ -7,7 +7,7 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 
 p {
@@ -94,7 +94,6 @@ flex-flow: column;
 			justify-content: center;
 			background-color: white;
 			position: relative;
-			border-bottom: 1px solid #e5e5e5;
 			padding: 30px;
 			text-align: center;
 			i, h3, p {
@@ -126,6 +125,42 @@ flex-flow: column;
 			.boxgrid-button:hover,
 			.boxgrid-button:active {
 				background-color: #215aa0;
+			}
+		}
+	}
+}
+
+.mobileadvert {
+	width: 100%;
+	background-color: #f0f2f5;
+	padding-top: 160px;
+	margin-top: -140px;
+	transform-style: preserve-3d;
+	position: relative;
+
+	.mobileadvertflex {
+		width: 1200px;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		margin: auto;
+		img {
+			width: 300px;
+			margin: auto;
+			transform: skewX(-5deg);
+		}
+		.mobileadvertcontent {
+			width: 500px;
+			margin: auto;
+			h2 {
+				margin-bottom: 2rem;
+			}
+			p {
+				margin-bottom: 2rem;
+			}
+			li {
+				margin-bottom: 2rem;
 			}
 		}
 	}
@@ -180,9 +215,13 @@ flex-flow: column;
 	border-right: 1px solid #e5e5e5;
 }
 
+.bb {
+	border-bottom: 1px solid #e5e5e5;
+}
+
 .navbar {
 	background: transparent !important;
-	width: 1200px !important;
+	width: 1200px;
 	margin: auto;
 	box-shadow: none;
 	position: absolute;
@@ -192,7 +231,35 @@ flex-flow: column;
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.navbar, .heroflex, .boxgridflex, .description-content, .description-flex {
+		width: 100vw !important;
+	}
+	.navbar {
+		padding: 0 1rem !important;
+	}
+	.herocontainer {
+		.heroflex {
+			flex-flow: column;
+			padding: 1rem;
+			img {
+				display: none;
+			}
+			.herocontent {
+				width: 100%;
+			}
+		}
+	}
+	.boxgridflex {
+		top: 0 !important;
+		flex-flow: column nowrap !important;
+		.boxgriditem {
+			width: 100% !important;
+		}
+	}
+}
 
-
-
-
+.navbar-toggler-icon {
+	color: white !important;
+	z-index: 99 !important;
+}

@@ -4,5 +4,8 @@
   "main": "js/mdb.min.js",
   "repository": "https://github.com/mdbootstrap/bootstrap-material-design.git",
   "author": "MDBootstrap",
-  "license": "SEE LICENSE IN <License.pdf>"
+  "license": "SEE LICENSE IN <License.pdf>",
+  "dependencies": {
+    "smooth-scrollbar": "^8.6.2"
+  }
 }
