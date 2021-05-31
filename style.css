@@ -241,7 +241,7 @@ p {
 .mobileadvert .mobileadvertflex .mobileadvertcontent h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li {
@@ -259,6 +259,11 @@ p {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.mobileadvert .mobileadvertflex .mobileadvertcontent li i {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li span {
