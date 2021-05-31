@@ -184,12 +184,11 @@ p {
 .mobileadvert {
   width: 100%;
   background-color: #f0f2f5;
-  padding-top: 160px;
+  padding-top: 200px;
   margin-top: -140px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: relative;
-  min-height: 200vh;
 }
 
 .mobileadvert .mobileadvertflex {
@@ -213,14 +212,20 @@ p {
 .mobileadvert .mobileadvertflex img {
   width: 300px;
   margin: auto;
-  -webkit-transform: skewX(-5deg);
-          transform: skewX(-5deg);
   position: relative;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent {
   width: 500px;
   margin: auto;
+}
+
+.mobileadvert .mobileadvertflex .mobileadvertcontent .li-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent h2 {
@@ -230,18 +235,32 @@ p {
   margin-bottom: 2rem;
 }
 
+.mobileadvert .mobileadvertflex .mobileadvertcontent h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
 .mobileadvert .mobileadvertflex .mobileadvertcontent li {
-  margin-bottom: 2rem;
   list-style-type: none;
   background-color: #fff;
   padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li span {
   color: #3d75d0;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
-  margin-right: 5px;
 }
 
 .description {
