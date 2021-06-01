@@ -11,8 +11,10 @@ html, body {
   overflow-x: hidden !important;
 }
 
-p {
+p, li {
   font-family: 'Open Sans', sans-serif;
+  color: #555555;
+  font-weight: 500;
 }
 
 .herocontainer {
@@ -72,6 +74,7 @@ p {
 .herocontainer .herocontent p {
   font-size: 20px;
   font-weight: 500;
+  color: white;
 }
 
 .herocontainer .herocontent .herobutton {
@@ -159,6 +162,7 @@ p {
 
 .boxgrid .boxgridflex .boxgriditem h3 {
   font-weight: 600;
+  color: #161616;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -185,13 +189,13 @@ p {
 
 .mobileadvert {
   width: 100%;
-  background-color: #f0f2f5;
+  background-color: #f3f4f5;
   padding-top: 200px;
+  padding-bottom: 7.5rem;
   margin-top: -140px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: relative;
-  min-height: 200vh;
 }
 
 .mobileadvert .mobileadvertflex {
@@ -239,9 +243,9 @@ p {
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent h4 {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   margin-bottom: 0.85rem;
+  color: black;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li {
@@ -262,14 +266,135 @@ p {
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li i {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  color: #979797;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li span {
   color: #3d75d0;
   font-size: 24px;
   font-weight: 700;
+}
+
+.contact {
+  width: 100%;
+  padding-top: 5rem;
+  min-height: 100vh;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  color: #3d75d0;
+}
+
+.contact .contactflex {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.contact .contactflex .contactcontent {
+  background-color: #103f6d;
+  color: white;
+  padding: 1rem;
+  height: 469.7px;
+  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contactflex .contactcontent h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact .contactflex .contactcontent hr {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+
+.contact .contactflex .contactcontent p, .contact .contactflex .contactcontent i {
+  color: white;
+}
+
+.contact .contactflex .contactcontent i {
+  margin-right: 8px;
+}
+
+.contact .contactflex .contactcontent .fa-facebook,
+.contact .contactflex .contactcontent .fa-instagram,
+.contact .contactflex .contactcontent .fa-twitter {
+  font-size: 1.618rem;
+}
+
+.contact .contactflex .contactcontent .fa-facebook,
+.contact .contactflex .contactcontent .fa-instagram {
+  margin-right: 2rem;
+}
+
+.contact .card {
+  width: 750px;
+  height: 469.7px;
+  padding: 3rem;
+  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+}
+
+.contact .card .contactbutton {
+  padding: 1rem;
+  background-color: #3d75d0;
+  border-radius: 45px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.contact .card .contactbutton:hover,
+.contact .card .contactbutton:active {
+  background-color: #215aa0;
+}
+
+.contact .card h3 {
+  font-weight: 500;
+}
+
+.contact .card .fa-paper-plane {
+  background-color: #3d75d0;
+}
+
+.contact .card .fa-envelope {
+  color: #3d75d0;
 }
 
 .description {
@@ -354,6 +479,80 @@ p {
   color: white;
 }
 
+.star {
+  width: 100%;
+  background-color: #f3f4f5;
+}
+
+.star .starflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.star .starflex i {
+  color: #ffbf40;
+  font-size: 1.25rem;
+}
+
+.star .starflex .starcontent {
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.star .starflex .starcontent p {
+  margin: 8px 0 0 0;
+}
+
+footer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #122442;
+}
+
+footer .footerflex {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footerflex .footerflexitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
+  color: white;
+}
+
 @media screen and (max-width: 480px) {
   .navbar, .heroflex, .boxgridflex, .description-content, .description-flex {
     width: 100vw !important;
@@ -389,5 +588,68 @@ p {
 .navbar-toggler-icon {
   color: white !important;
   z-index: 99 !important;
+}
+
+.marketimg {
+  width: 100%;
+  background-color: white;
+}
+
+.marketimg .marketimgflex {
+  width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.marketimg .marketimgflex .marketimgcontent {
+  margin-left: 1rem;
+}
+
+.all img {
+  padding: 0.5rem 0.5rem 0 1rem !important;
+}
+
+.gallery {
+  width: 62%;
+  margin-right: 1rem;
+  -webkit-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  column-width: 33%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

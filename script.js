@@ -48,3 +48,8 @@ function parallax() {
         item.style.backgroundPositionY = getPosition(item) * item.dataset.speedMultiplier + "%"
     }
 }
+
+// MDB Lightbox Init
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
