@@ -592,7 +592,10 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
 
 .marketimg {
   width: 100%;
-  background-color: white;
+  background-color: #f3f4f5;
+  padding-top: 200px;
+  padding-bottom: 7.5rem;
+  margin-top: -140px;
 }
 
 .marketimg .marketimgflex {
@@ -611,10 +614,16 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
 }
 
 .marketimg .marketimgflex .marketimgcontent {
+  width: 50%;
   margin-left: 1rem;
 }
 
-.all img {
+.marketimg .marketimgflex .marketimgcontent h2 {
+  color: #3d75d0;
+  font-weight: 700;
+}
+
+figure {
   padding: 0.5rem 0.5rem 0 1rem !important;
 }
 
@@ -637,6 +646,11 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
   transform: scale(1);
 }
 
+.gallery .animation img {
+  -webkit-box-shadow: 0 0 20px 0 rgba(100, 100, 100, 0.712) !important;
+          box-shadow: 0 0 20px 0 rgba(100, 100, 100, 0.712) !important;
+}
+
 @media (max-width: 450px) {
   .gallery {
     -webkit-column-count: 1;
@@ -650,6 +664,12 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
   .btn.filter {
     padding-left: 1.1rem;
     padding-right: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .herocontainer {
+    min-height: 50vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -428,27 +428,36 @@ footer {
 
 .marketimg {
 	width: 100%;
-	background-color: white;
-	.marketimgflex {
+	background-color: #f3f4f5;
+	padding-top: 200px;
+	padding-bottom: 7.5rem;
+	margin-top: -140px;	.marketimgflex {
 		width: 1200px;
 		margin: auto;
 display: flex;
 flex-flow: row nowrap;
 justify-content: space-evenly;
 .marketimgcontent {
+	width: 50%;
 	margin-left: 1rem;
+	h2 {
+		color: #3d75d0;
+		font-weight: 700;
+	}
 }
 	}
 }
-.all {
-	img {	
-		padding: 0.5rem 0.5rem 0 1rem !important;
-	}
+
+
+
+figure {
+	padding: 0.5rem 0.5rem 0 1rem !important;
+
 }
 
 .gallery {
 width: 62%;
-margin-right: 1rem;
+margin-right: 1rem;	
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
 	column-count: 3;
@@ -462,6 +471,10 @@ margin-right: 1rem;
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1); 
+	img {
+		box-shadow: 0 0 20px 0 rgba(100, 100, 100, 0.712) !important;
+
+	}
 }
 	
 	@media (max-width: 450px) {
@@ -480,4 +493,10 @@ margin-right: 1rem;
 	padding-left: 1.1rem;
 	padding-right: 1.1rem;
 	}
+	}
+	
+	@media screen and (min-width: 2000px) {
+		.herocontainer {
+			min-height: 50vh;
+		}
 	}
