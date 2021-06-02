@@ -621,15 +621,39 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
 .marketimg .marketimgflex .marketimgcontent h2 {
   color: #3d75d0;
   font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.marketimg .marketimgflex .marketimgcontent p {
+  margin-bottom: 2rem;
 }
 
 .marketimg .marketimgflex .marketimgcontent li {
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: #fff;
-  -webkit-box-shadow: 2px 2px 6px 0 rgba(100, 100, 100, 0.158);
-          box-shadow: 2px 2px 6px 0 rgba(100, 100, 100, 0.158);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.158);
+          box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.158);
   list-style-type: none;
+  border-radius: 3px;
+}
+
+.marketimg .marketimgflex .marketimgcontent .btn-block {
+  padding: 1rem;
+  border-radius: 45px;
+  background-color: #3d75d0;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2rem;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.marketimg .marketimgflex .marketimgcontent .btn-block:hover,
+.marketimg .marketimgflex .marketimgcontent .btn-block:active {
+  background-color: #215aa0;
 }
 
 .li-1 {

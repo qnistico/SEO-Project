@@ -444,13 +444,33 @@ justify-content: space-evenly;
 	h2 {
 		color: #3d75d0;
 		font-weight: 700;
+		margin-bottom: 1rem;
+	}
+	p {
+		margin-bottom: 2rem;
 	}
 	li {
 		padding: 1rem;
 		margin-bottom: 1rem;
 		background-color: #fff;
-		box-shadow: 2px 2px 6px 0 rgba(100, 100, 100, 0.158);
+		box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.158);
 		list-style-type: none;
+		border-radius: 3px;
+	}
+	.btn-block {
+		padding: 1rem;
+		border-radius: 45px;
+		background-color: #3d75d0;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		margin-top: 2rem;
+		font-weight: 400;
+		transition: all 0.3s ease;
+	}
+	.btn-block:hover,
+	.btn-block:active {
+		background-color: #215aa0;
 	}
 }
 	}
