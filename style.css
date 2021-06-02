@@ -627,8 +627,8 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: #fff;
-  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
-          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+  -webkit-box-shadow: 2px 2px 6px 0 rgba(100, 100, 100, 0.158);
+          box-shadow: 2px 2px 6px 0 rgba(100, 100, 100, 0.158);
   list-style-type: none;
 }
 
