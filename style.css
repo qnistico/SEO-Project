@@ -161,6 +161,7 @@ p, li {
 }
 
 .boxgrid .boxgridflex .boxgriditem h3 {
+  font-size: 28px;
   font-weight: 600;
   color: #161616;
   font-family: 'Open Sans', sans-serif;
@@ -189,13 +190,20 @@ p, li {
 
 .mobileadvert {
   width: 100%;
-  background-color: #f3f4f5;
-  padding-top: 200px;
-  padding-bottom: 7.5rem;
-  margin-top: -140px;
+  background: linear-gradient(44deg, #4e88ff, #33c2ae 68%);
+  padding: 2rem 0 2rem 0;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mobileadvert .mobileadvertflex {
@@ -236,7 +244,7 @@ p, li {
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent h2 {
-  color: #3d75d0;
+  color: white;
   text-align: center;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -268,7 +276,7 @@ p, li {
 .mobileadvert .mobileadvertflex .mobileadvertcontent li i {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #979797;
+  color: #3d75d0;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li span {
@@ -281,6 +289,7 @@ p, li {
   width: 100%;
   padding-top: 5rem;
   min-height: 100vh;
+  background-color: #f0f2f5;
 }
 
 .contact h2 {
@@ -481,7 +490,7 @@ p, li {
 
 .star {
   width: 100%;
-  background-color: #f3f4f5;
+  background-color: #f0f2f5;
 }
 
 .star .starflex {
@@ -553,38 +562,6 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
   color: white;
 }
 
-@media screen and (max-width: 480px) {
-  .navbar, .heroflex, .boxgridflex, .description-content, .description-flex {
-    width: 100vw !important;
-  }
-  .navbar {
-    padding: 0 1rem !important;
-  }
-  .herocontainer .heroflex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    padding: 1rem;
-  }
-  .herocontainer .heroflex img {
-    display: none;
-  }
-  .herocontainer .heroflex .herocontent {
-    width: 100%;
-  }
-  .boxgridflex {
-    top: 0 !important;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-flow: column nowrap !important;
-            flex-flow: column nowrap !important;
-  }
-  .boxgridflex .boxgriditem {
-    width: 100% !important;
-  }
-}
-
 .navbar-toggler-icon {
   color: white !important;
   z-index: 99 !important;
@@ -592,7 +569,7 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
 
 .marketimg {
   width: 100%;
-  background-color: #f3f4f5;
+  background-color: #f0f2f5;
   padding-top: 200px;
   padding-bottom: 7.5rem;
   margin-top: -140px;
@@ -611,6 +588,9 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .marketimg .marketimgflex .marketimgcontent {
@@ -657,36 +637,36 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
 }
 
 .li-1 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
+  -webkit-animation-delay: 0.075s;
+          animation-delay: 0.075s;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
 }
 
 .li-2 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  -webkit-animation-delay: 0.150s;
+          animation-delay: 0.150s;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
 }
 
 .li-3 {
+  -webkit-animation-delay: 0.225s;
+          animation-delay: 0.225s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+}
+
+.li-4 {
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
 }
 
-.li-4 {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-
 .li-5 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  -webkit-animation-delay: 0.375s;
+          animation-delay: 0.375s;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
 }
@@ -695,14 +675,10 @@ figure {
   padding: 0.5rem 0.5rem 0 1rem !important;
 }
 
-figure img {
-  -webkit-box-shadow: 0px 12px 40px rgba(63, 63, 63, 0.158);
-          box-shadow: 0px 12px 40px rgba(63, 63, 63, 0.158);
-}
-
 .gallery {
   width: 62%;
   margin-right: 1rem;
+  position: relative;
   -webkit-column-count: 3;
   column-count: 3;
   -webkit-column-width: 33%;
@@ -719,25 +695,120 @@ figure img {
   transform: scale(1);
 }
 
-@media (max-width: 450px) {
-  .gallery {
-    -webkit-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    column-width: 100%;
-  }
-}
-
-@media (max-width: 400px) {
-  .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-  }
+.overlay {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f3f4f588), color-stop(85%, transparent));
+  background-image: linear-gradient(90deg, #f3f4f588 0%, transparent 85%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 2000px) {
   .herocontainer {
     min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+  .herocontainer, .boxgrid, .marketimg, .mobileadvert, .contact, .navbar {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .gallery, .contactflex, .footerflex {
+    width: 90vw !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .navbar {
+    padding: 0 1rem !important;
+  }
+  .herocontainer .heroflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    width: 90% !important;
+  }
+  .herocontainer .heroflex img {
+    display: none;
+  }
+  .herocontainer .heroflex .herocontent {
+    width: 90% !important;
+    margin: 0 !important;
+  }
+  .boxgridflex {
+    top: 0 !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+  }
+  .boxgridflex .boxgriditem {
+    width: 100% !important;
+  }
+  .gallery {
+    width: 90vw !important;
+  }
+  .marketimgcontent {
+    width: 90vw !important;
+    margin: 0 !important;
+  }
+  .marketimgcontent h2 {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .mobileadvertcontent {
+    width: 90vw !important;
+    margin-top: 2rem !important;
+  }
+  .contact {
+    padding: 2rem 0 !important;
+  }
+  .contact .contactcontent {
+    width: 90vw;
+    height: auto !important;
+  }
+  .contact .form {
+    width: 90vw !important;
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex, .footerflex {
+    width: 90vw !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .heroflex img {
+    width: 410px !important;
+  }
+  .gallery {
+    width: 50%;
+  }
+  .boxgriditem {
+    height: auto !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
