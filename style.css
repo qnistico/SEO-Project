@@ -6,7 +6,7 @@
 }
 
 html, body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   overflow-x: hidden !important;
 }
@@ -15,6 +15,15 @@ p, li {
   font-family: 'Open Sans', sans-serif;
   color: #555555;
   font-weight: 500;
+}
+
+h3 {
+  color: #143d55 !important;
+}
+
+h1::after {
+  background-color: black;
+  content: '';
 }
 
 .herocontainer {
@@ -49,8 +58,33 @@ p, li {
           align-items: center;
 }
 
+.herocontainer .heroflex h1 {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.herocontainer .heroflex p {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.herocontainer .heroflex a {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
 .herocontainer .heroflex img {
   width: 650px;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.84s;
+          animation-delay: 0.84s;
 }
 
 .herocontainer .herocontent {
@@ -67,7 +101,7 @@ p, li {
 
 .herocontainer .herocontent h1 {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 2rem;
 }
 
@@ -164,7 +198,6 @@ p, li {
   font-size: 28px;
   font-weight: 600;
   color: #161616;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .boxgrid .boxgridflex .boxgriditem p {
@@ -254,6 +287,7 @@ p, li {
   font-weight: 600;
   margin-bottom: 0.85rem;
   color: black;
+  font-family: 'Raleway', sans-serif;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li {
@@ -296,7 +330,7 @@ p, li {
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 700;
-  color: #3d75d0;
+  color: #143d55;
 }
 
 .contact .contactflex {
@@ -308,22 +342,18 @@ p, li {
   -webkit-box-direction: normal;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin: auto;
 }
 
 .contact .contactflex .contactcontent {
-  background-color: #103f6d;
-  color: white;
+  width: 50%;
   padding: 1rem;
-  height: 469.7px;
-  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
-          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -334,12 +364,19 @@ p, li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: auto;
+}
+
+.contact .contactflex .contactcontent h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #3d75d0;
 }
 
 .contact .contactflex .contactcontent h3 {
+  color: #143d55;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -347,10 +384,11 @@ p, li {
 .contact .contactflex .contactcontent hr {
   background-color: #e5e5e5;
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
-.contact .contactflex .contactcontent p, .contact .contactflex .contactcontent i {
-  color: white;
+.contact .contactflex .contactcontent .p2 {
+  font-style: italic;
 }
 
 .contact .contactflex .contactcontent i {
@@ -363,14 +401,26 @@ p, li {
   font-size: 1.618rem;
 }
 
+.contact .contactflex .contactcontent .fa-facebook {
+  color: #4267B2;
+}
+
+.contact .contactflex .contactcontent .fa-instagram {
+  color: #3f729b;
+}
+
+.contact .contactflex .contactcontent .fa-twitter {
+  color: #1DA1F2;
+}
+
 .contact .contactflex .contactcontent .fa-facebook,
 .contact .contactflex .contactcontent .fa-instagram {
   margin-right: 2rem;
 }
 
 .contact .card {
-  width: 750px;
-  height: 469.7px;
+  width: 500px;
+  margin: auto;
   padding: 3rem;
   -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
           box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
@@ -380,22 +430,24 @@ p, li {
   padding: 1rem;
   background-color: #3d75d0;
   border-radius: 45px;
+  border: 2px solid #3d75d0;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
   margin-top: 2rem;
   color: white;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .contact .card .contactbutton:hover,
 .contact .card .contactbutton:active {
-  background-color: #215aa0;
+  color: #3d75d0;
+  background-color: transparent;
 }
 
 .contact .card h3 {
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .contact .card .fa-paper-plane {
@@ -475,13 +527,13 @@ p, li {
 }
 
 .navbar {
-  background: transparent !important;
   width: 1200px;
   margin: auto;
   -webkit-box-shadow: none;
           box-shadow: none;
-  position: absolute;
   padding: 0 !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .navbar a {
@@ -600,7 +652,8 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
 
 .marketimg .marketimgflex .marketimgcontent h2 {
   color: #3d75d0;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 800;
   margin-bottom: 1rem;
 }
 
@@ -627,8 +680,8 @@ footer .footerflex .footerflexitem h3, footer .footerflex .footerflexitem a {
   font-size: 20px;
   margin-top: 2rem;
   font-weight: 400;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .marketimg .marketimgflex .marketimgcontent .btn-block:hover,
@@ -714,7 +767,7 @@ figure {
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 768px) {
   html, body {
     overflow-x: hidden !important;
   }
@@ -782,12 +835,14 @@ figure {
     padding: 2rem 0 !important;
   }
   .contact .contactcontent {
-    width: 90vw;
-    height: auto !important;
+    width: 90vw !important;
+    margin-bottom: 1rem !important;
   }
   .contact .form {
     width: 90vw !important;
-    height: auto !important;
+  }
+  .marketimg {
+    padding: 2rem 0 2rem 0 !important;
   }
 }
 

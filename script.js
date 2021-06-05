@@ -53,3 +53,12 @@ function parallax() {
 $(function () {
     $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
     });
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= 1) {
+            $('.navbar').css('background', '#1b1b1b');
+        } else {
+            $('.navbar').css('background', 'transparent');
+        }
+        
+    });
