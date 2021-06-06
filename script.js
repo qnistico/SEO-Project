@@ -56,9 +56,10 @@ $(function () {
 
     $(window).scroll(function() {
         if ($(window).scrollTop() >= 1) {
-            $('.navbar').css('background', '#1b1b1b');
+            $('.navbar').css('background', '#143d55');
         } else {
             $('.navbar').css('background', 'transparent');
         }
+        
         
     });
