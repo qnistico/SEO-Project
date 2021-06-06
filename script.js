@@ -64,16 +64,20 @@ $(function () {
         
     });
 const sr = ScrollReveal({
-    distance: '30px',
-    duration: 850,
+    distance: '32px',
+    duration: 840,
     delay: 200
-});
+});     
+
     sr.reveal('.mic-h2',  {
-        reset: 'true'
+        reset: 'true',
+        origin: 'top'
     })
     sr.reveal('.mic-p',  {
-        reset: 'true'
+        reset: 'true',
+        origin: 'top'
     })
+    
     sr.reveal('.li-1',  {
         reset: 'true',
         origin: 'right'
@@ -100,38 +104,78 @@ const sr = ScrollReveal({
     })
     sr.reveal('.mobileadvert-1',  {
         origin: 'left',
-        reset: 'true'
+        reset: 'true',
+        distance: '61px'
     })
     sr.reveal('.mobileadvert-2',  {
         origin: 'top',
-        reset: 'true'
+        reset: 'true',
+        distance: '61px'
     })
     sr.reveal('.mobileadvert-3',  {
         origin: 'bottom',
-        reset: 'true'
+        reset: 'true',
+        distance: '61px'
     })
     sr.reveal('.mobileadvert-4',  {
         origin: 'right',
-        reset: 'true'
+        reset: 'true',
+        distance: '61px'
     })
+    
     sr.reveal('.mobileadvert-h2',  {
         origin: 'top',
         reset: 'true'
     })
-    /*
+    
+    
     sr.reveal('.blog-h2',  {
-        reset: 'true'
-    })
-    sr.reveal('.blogitem',  {
         reset: 'true',
-        delay: 500
+        origin: 'top'
     })
-    sr.reveal('.blogitem',  {
+    
+    sr.reveal('.blogitem-1',  {
         reset: 'true',
-        delay: 500
+        delay: '250',
+        origin: 'top'
     })
-    sr.reveal('.blogitem',  {
+    sr.reveal('.blogitem-2',  {
         reset: 'true',
-        delay: 500
+        delay: '375',
+        origin: 'top'
     })
-    */
+    sr.reveal('.blogitem-3',  {
+        reset: 'true',
+        delay: '500',
+        origin: 'top'
+    })
+    sr.reveal('.contactcontent',  {
+        reset: 'true',
+        distance: '100px',
+        origin: 'left'
+    })
+    sr.reveal('.card',  {
+        reset: 'true',
+        distance: '100px',
+        origin: 'right'
+    })
+    sr.reveal('.fs-1',  {
+        reset: 'true',
+        delay: '100'
+        })
+    sr.reveal('.fs-2',  {
+        reset: 'true',
+        delay: '175'
+        })
+    sr.reveal('.fs-3',  {
+        reset: 'true',
+        delay: '250'
+        })
+    sr.reveal('.fs-4',  {
+        reset: 'true',
+        delay: '325'
+        })
+    sr.reveal('.fs-5',  {
+        reset: 'true',
+        delay: '400'
+        })

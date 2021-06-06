@@ -383,7 +383,7 @@ h1::after {
 
 .blog .blogflex .blogitem .blogitemcontent .blogbutton {
   color: #3d75d0;
-  font-weight: 700;
+  font-weight: 600;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
