@@ -63,3 +63,58 @@ $(function () {
         
         
     });
+const sr = ScrollReveal({
+    distance: '30px',
+    duration: 850,
+    delay: 200
+});
+    sr.reveal('.mic-h2',  {
+        reset: 'true'
+    })
+    sr.reveal('.mic-p',  {
+        reset: 'true'
+    })
+    sr.reveal('.li-1',  {
+        reset: 'true',
+        origin: 'right'
+    })
+    sr.reveal('.li-2',  {
+        reset: 'true',
+        origin: 'right'
+    })
+    sr.reveal('.li-3',  {
+        reset: 'true',
+        origin: 'right'
+    })
+    sr.reveal('.li-4',  {
+        reset: 'true',
+        origin: 'right'
+    })
+    sr.reveal('.li-5',  {
+        reset: 'true',
+        origin: 'right'
+    })
+    sr.reveal('.btn-block',  {
+        reset: 'true',
+        origin: 'bottom'
+    })
+    sr.reveal('.mobileadvert-1',  {
+        origin: 'left',
+        reset: 'true'
+    })
+    sr.reveal('.mobileadvert-2',  {
+        origin: 'top',
+        reset: 'true'
+    })
+    sr.reveal('.mobileadvert-3',  {
+        origin: 'bottom',
+        reset: 'true'
+    })
+    sr.reveal('.mobileadvert-4',  {
+        origin: 'right',
+        reset: 'true'
+    })
+    sr.reveal('.mobileadvert-h2',  {
+        origin: 'top',
+        reset: 'true'
+    })

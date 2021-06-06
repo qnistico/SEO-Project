@@ -6,7 +6,7 @@
 }
 
 html, body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   overflow-x: hidden !important;
 }
@@ -286,10 +286,11 @@ h1::after {
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent h4 {
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 0.85rem;
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .mobileadvert .mobileadvertflex .mobileadvertcontent li {
@@ -330,7 +331,7 @@ h1::after {
 .blog h2 {
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 3rem;
 }
 
@@ -355,8 +356,8 @@ h1::after {
 .blog .blogflex .blogitem {
   width: 30%;
   background-color: #fff;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.384);
-          box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.384);
+  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
   border-radius: 3px;
 }
 
@@ -699,9 +700,9 @@ nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .marketimg .marketimgflex .marketimgcontent {
@@ -732,7 +733,7 @@ nav {
 
 .marketimg .marketimgflex .marketimgcontent .btn-block {
   padding: 1rem;
-  border-radius: 45px;
+  border-radius: 3px;
   background-color: #3d75d0;
   color: white;
   text-align: center;
@@ -746,41 +747,6 @@ nav {
 .marketimg .marketimgflex .marketimgcontent .btn-block:hover,
 .marketimg .marketimgflex .marketimgcontent .btn-block:active {
   background-color: #215aa0;
-}
-
-.li-1 {
-  -webkit-animation-delay: 0.075s;
-          animation-delay: 0.075s;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-
-.li-2 {
-  -webkit-animation-delay: 0.150s;
-          animation-delay: 0.150s;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-
-.li-3 {
-  -webkit-animation-delay: 0.225s;
-          animation-delay: 0.225s;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-
-.li-4 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-
-.li-5 {
-  -webkit-animation-delay: 0.375s;
-          animation-delay: 0.375s;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
 }
 
 figure {
@@ -843,13 +809,19 @@ footer .footerbutton:active {
   color: white;
 }
 
+@media screen and (max-width: 550px) {
+  .heroflex img {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 2000px) {
   .herocontainer {
     min-height: 50vh;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   html, body {
     overflow-x: hidden !important;
   }
@@ -872,6 +844,12 @@ footer .footerbutton:active {
   .navbar {
     padding: 0 1rem !important;
   }
+  .navbar .navflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
   .herocontainer .heroflex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -880,7 +858,8 @@ footer .footerbutton:active {
     width: 90% !important;
   }
   .herocontainer .heroflex img {
-    display: none;
+    width: 100% !important;
+    margin-top: 5rem;
   }
   .herocontainer .heroflex .herocontent {
     width: 90% !important;
@@ -922,7 +901,7 @@ footer .footerbutton:active {
     width: 90vw !important;
   }
   .marketimg {
-    padding: 2rem 0 2rem 0 !important;
+    padding: 12rem 0 2rem 0 !important;
   }
   .blogitem {
     width: 90vw !important;
@@ -940,8 +919,18 @@ footer .footerbutton:active {
         -ms-flex-align: center !important;
             align-items: center !important;
   }
+  .heroflex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column !important;
+            flex-flow: column !important;
+  }
   .heroflex img {
-    width: 410px !important;
+    width: 90% !important;
+    margin-top: 11rem;
+  }
+  .heroflex .herocontent {
+    width: 75% !important;
   }
   .gallery {
     width: 50%;
