@@ -321,6 +321,91 @@ h1::after {
   font-weight: 700;
 }
 
+.blog {
+  width: 100%;
+  background-color: #fff;
+  padding: 3rem 0 5rem 0;
+}
+
+.blog h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.blog .blogflex {
+  max-width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.blog .blogflex .blogitem {
+  width: 30%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.384);
+          box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.384);
+  border-radius: 3px;
+}
+
+.blog .blogflex .blogitem img {
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.blog .blogflex .blogitem .blogitemcontent {
+  padding: 1rem;
+}
+
+.blog .blogflex .blogitem .blogitemcontent .blogheader {
+  font-size: 24px;
+  font-weight: 700;
+  color: #143d55;
+}
+
+.blog .blogflex .blogitem .blogitemcontent p {
+  margin-top: 8px;
+}
+
+.blog .blogflex .blogitem .blogitemcontent .blogbutton {
+  color: #3d75d0;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .blogflex .blogitem .blogitemcontent .fa-calendar {
+  margin-right: 8px;
+}
+
+.blog .blogflex .blogitem .blogitemcontent .fa-arrow-right {
+  margin-left: 8px;
+}
+
 .contact {
   width: 100%;
   padding-top: 5rem;
@@ -769,11 +854,9 @@ footer .footerbutton:active {
     overflow-x: hidden !important;
   }
   .herocontainer, .boxgrid, .marketimg, .mobileadvert, .contact, .navbar {
-    margin: 0 !important;
-    padding: 0 !important;
     width: 100% !important;
   }
-  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .gallery, .contactflex, .footerflex {
+  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .gallery, .contactflex, .footerflex, .blogflex {
     width: 90vw !important;
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -840,6 +923,10 @@ footer .footerbutton:active {
   }
   .marketimg {
     padding: 2rem 0 2rem 0 !important;
+  }
+  .blogitem {
+    width: 90vw !important;
+    margin-bottom: 2rem;
   }
 }
 
