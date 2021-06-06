@@ -94,7 +94,7 @@ const sr = ScrollReveal({
         reset: 'true',
         origin: 'right'
     })
-    sr.reveal('.btn-block',  {
+    sr.reveal('.marketimg-button',  {
         reset: 'true',
         origin: 'bottom'
     })
@@ -118,3 +118,20 @@ const sr = ScrollReveal({
         origin: 'top',
         reset: 'true'
     })
+    /*
+    sr.reveal('.blog-h2',  {
+        reset: 'true'
+    })
+    sr.reveal('.blogitem',  {
+        reset: 'true',
+        delay: 500
+    })
+    sr.reveal('.blogitem',  {
+        reset: 'true',
+        delay: 500
+    })
+    sr.reveal('.blogitem',  {
+        reset: 'true',
+        delay: 500
+    })
+    */
