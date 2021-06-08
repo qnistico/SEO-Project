@@ -67,8 +67,35 @@ const sr = ScrollReveal({
     distance: '32px',
     duration: 840,
     delay: 200
-});     
-
+});
+    sr.reveal('.bgi-1', {
+        reset: 'true',
+        origin: 'top'
+    })
+    sr.reveal('.bgi-2', {
+        reset: 'true',
+        origin: 'top',
+        delay:350
+    })
+    sr.reveal('.bgi-3', {
+        reset: 'true',
+        origin: 'top',
+        delay:500
+    })
+    sr.reveal('.bgi-4', {
+        reset: 'true',
+        origin: 'top'
+    })
+    sr.reveal('.bgi-5', {
+        reset: 'true',
+        origin: 'top',
+        delay:350
+    })
+    sr.reveal('.bgi-6', {
+        reset: 'true',
+        origin: 'top',
+        delay:500
+    })
     sr.reveal('.mic-h2',  {
         reset: 'true',
         origin: 'top'
@@ -159,23 +186,25 @@ const sr = ScrollReveal({
         distance: '100px',
         origin: 'right'
     })
-    sr.reveal('.fs-1',  {
-        reset: 'true',
-        delay: '100'
-        })
-    sr.reveal('.fs-2',  {
-        reset: 'true',
-        delay: '175'
-        })
-    sr.reveal('.fs-3',  {
-        reset: 'true',
-        delay: '250'
-        })
-    sr.reveal('.fs-4',  {
-        reset: 'true',
-        delay: '325'
-        })
-    sr.reveal('.fs-5',  {
-        reset: 'true',
-        delay: '400'
-        })
+
+ 
+
+  /*  document.getElementById("second-img").addEventListener('click', swapFunction);
+
+    function swapFunction() {
+        document.getElementById("second-img").classList.add('secondimgadd');
+        document.getElementById("first-img").classList.add('firstimgadd');
+
+    }
+    */
+
+    function swapFunction (img)  {
+        if (img.id == "first-img") {
+        
+        document.getElementById("first-img").classList.toggle("firstimgadd")
+        }
+        else {
+        document.getElementById("second-img").classList.toggle("secondimgadd")
+        }
+        }
+

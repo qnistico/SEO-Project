@@ -113,10 +113,10 @@ h1::after {
   color: white;
 }
 
-.herocontainer .herocontent .herobutton {
+.herobutton {
   width: 62%;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Open Sans', sans-serif;
   color: white;
   border: 1px solid white;
@@ -127,10 +127,10 @@ h1::after {
   transition: all 0.5s ease;
 }
 
-.herocontainer .herocontent .herobutton:hover,
-.herocontainer .herocontent .herobutton:active {
+.herobutton:hover,
+.herobutton:active {
   background-color: white;
-  color: black;
+  color: #3d75d0;
   border-radius: 45px;
 }
 
@@ -154,7 +154,6 @@ h1::after {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  top: -3rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -329,6 +328,7 @@ h1::after {
 }
 
 .blog h2 {
+  color: #3d75d0;
   text-align: center;
   font-size: 36px;
   font-weight: 800;
@@ -405,6 +405,41 @@ h1::after {
 
 .blog .blogflex .blogitem .blogitemcontent .fa-arrow-right {
   margin-left: 8px;
+}
+
+.experiment1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  min-height: 100vh;
+}
+
+.experiment1 img {
+  width: 450px;
+  height: 450px;
+  position: relative;
+}
+
+.experiment1 .firstimg {
+  top: 175px;
+  left: 250px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.experiment1 .firstimgadd {
+  top: 0;
+  left: 432px;
+}
+
+.experiment1 .secondimgadd {
+  top: 216px;
+  right: 216px;
 }
 
 .contact {
@@ -536,7 +571,7 @@ h1::after {
   background-color: #3d75d0;
 }
 
-.contact .card .fa-envelope {
+.fa-envelope {
   color: #3d75d0;
 }
 
@@ -731,9 +766,10 @@ nav {
   border-radius: 3px;
 }
 
-.marketimg .marketimgflex .marketimgcontent .btn-block {
+.btn-block {
   padding: 1rem;
   border-radius: 3px;
+  border: 2px solid #3d75d0 !important;
   background-color: #3d75d0;
   color: white;
   text-align: center;
@@ -744,9 +780,10 @@ nav {
   transition: all 0.5s ease;
 }
 
-.marketimg .marketimgflex .marketimgcontent .btn-block:hover,
-.marketimg .marketimgflex .marketimgcontent .btn-block:active {
-  background-color: #215aa0;
+.btn-block:hover,
+.btn-block:active {
+  background-color: transparent;
+  color: #3d75d0;
 }
 
 figure {
@@ -792,10 +829,15 @@ footer {
 
 footer p {
   color: white;
+  font-size: 16px;
 }
 
 footer h5 {
   color: white;
+}
+
+footer a {
+  font-size: 16px;
 }
 
 footer .footerbutton {
@@ -807,6 +849,41 @@ footer .footerbutton {
 footer .footerbutton:hover,
 footer .footerbutton:active {
   color: white;
+}
+
+.heropages {
+  width: 100%;
+  min-height: 62vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(44deg, #4e88ff, #33c2ae 68%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.heropages .heropagesflex {
+  width: 1280px;
+}
+
+.heropages .heropagesflex .heropagescontent h1 {
+  margin-bottom: 3rem;
+  color: white;
+  font-weight: 800;
+}
+
+.heropages .heropagesflex .heropagescontent .herobutton {
+  padding: 1rem 3rem;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 550px) {
@@ -944,5 +1021,19 @@ footer .footerbutton:active {
   .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex, .footerflex {
     width: 90vw !important;
   }
+}
+
+.modalbutton {
+  margin: 0 !important;
+  background-color: #3d75d0 !important;
+  font-weight: 600;
+}
+
+.btn-unique {
+  background-color: #3d75d0 !important;
+}
+
+.modal-backdrop {
+  z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */
