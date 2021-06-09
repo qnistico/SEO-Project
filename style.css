@@ -428,8 +428,14 @@ h1::after {
 .experiment1 .firstimg {
   top: 175px;
   left: 250px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.experiment1 .secondimg {
+  -webkit-transition: all 0.5s ease !important;
+  transition: all 0.5s ease !important;
+  top: 0;
 }
 
 .experiment1 .firstimgadd {

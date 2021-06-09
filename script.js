@@ -68,34 +68,30 @@ const sr = ScrollReveal({
     duration: 840,
     delay: 200
 });
-    sr.reveal('.bgi-1', {
-        reset: 'true',
-        origin: 'top'
-    })
-    sr.reveal('.bgi-2', {
+    sr.reveal('.bgi-icon', {
         reset: 'true',
         origin: 'top',
-        delay:350
+        delay: '0'
     })
-    sr.reveal('.bgi-3', {
+    
+    sr.reveal('.bgi-h3', {
         reset: 'true',
         origin: 'top',
-        delay:500
+        delay: '0'
     })
-    sr.reveal('.bgi-4', {
-        reset: 'true',
-        origin: 'top'
-    })
-    sr.reveal('.bgi-5', {
+    
+    sr.reveal('.bgi-p', {
         reset: 'true',
         origin: 'top',
-        delay:350
+        delay: '0'
     })
-    sr.reveal('.bgi-6', {
+    
+    sr.reveal('.boxgrid-button', {
         reset: 'true',
         origin: 'top',
-        delay:500
+        delay: '0'
     })
+    
     sr.reveal('.mic-h2',  {
         reset: 'true',
         origin: 'top'
@@ -198,7 +194,7 @@ const sr = ScrollReveal({
     }
     */
 
-    function swapFunction (img)  {
+    /*function swapFunction (img)  {
         if (img.id == "first-img") {
         
         document.getElementById("first-img").classList.toggle("firstimgadd")
@@ -206,5 +202,12 @@ const sr = ScrollReveal({
         else {
         document.getElementById("second-img").classList.toggle("secondimgadd")
         }
+        }
+        */
+
+        function swapFunction() {
+
+            document.getElementById("first-img").classList.toggle('firstimgadd');
+            document.getElementById("second-img").classList.toggle('secondimgadd');
         }
 

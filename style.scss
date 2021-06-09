@@ -298,7 +298,11 @@ img {
 	.firstimg {
 		top: 175px;
 		left: 250px;
-		transition: all 0.3s ease;
+		transition: all 0.5s ease;
+	}
+	.secondimg {
+		transition: all 0.5s ease !important;
+		top: 0;
 	}
 	.firstimgadd {
 		top: 0;
