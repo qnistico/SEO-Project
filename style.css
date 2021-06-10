@@ -158,15 +158,12 @@ h1::after {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
   -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
           box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
 }
 
 .boxgrid .boxgridflex .boxgriditem {
   width: 33%;
-  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,13 +183,13 @@ h1::after {
   text-align: center;
 }
 
-.boxgrid .boxgridflex .boxgriditem i, .boxgrid .boxgridflex .boxgriditem h3, .boxgrid .boxgridflex .boxgriditem p {
+.boxgrid .boxgridflex .boxgriditem h3, .boxgrid .boxgridflex .boxgriditem p {
   margin-bottom: 1rem;
 }
 
-.boxgrid .boxgridflex .boxgriditem i {
-  font-size: 2.5rem;
-  color: #a6a6a6;
+.boxgrid .boxgridflex .boxgriditem img {
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .boxgrid .boxgridflex .boxgriditem h3 {
@@ -407,45 +404,87 @@ h1::after {
   margin-left: 8px;
 }
 
-.experiment1 {
+.seopresentation1 {
   width: 100%;
+  min-height: 62vh;
+  background-color: #fefefe;
+  padding: 2rem 0 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seopresentation1 .seopresentation1flex {
+  width: 1280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  min-height: 100vh;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
 }
 
-.experiment1 img {
-  width: 450px;
-  height: 450px;
+.seopresentation1 .seopresentation1flex img {
+  width: 365px !important;
+  height: 300px !important;
   position: relative;
+  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.212);
+          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.212);
 }
 
-.experiment1 .firstimg {
-  top: 175px;
-  left: 250px;
+.seopresentation1 .seopresentation1flex .firstimg {
+  top: 100px;
+  left: 265px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.experiment1 .secondimg {
+.seopresentation1 .seopresentation1flex .secondimg {
   -webkit-transition: all 0.5s ease !important;
   transition: all 0.5s ease !important;
   top: 0;
 }
 
-.experiment1 .firstimgadd {
+.seopresentation1 .seopresentation1flex .firstimgadd {
   top: 0;
-  left: 432px;
+  left: 365px;
+  z-index: 2;
 }
 
-.experiment1 .secondimgadd {
-  top: 216px;
-  right: 216px;
+.seopresentation1 .seopresentation1flex .secondimgadd {
+  top: 100px;
+  right: 100px;
+}
+
+.seopresentation1 .seocontent1 {
+  width: auto;
+}
+
+.seopresentation1 .seocontent1 h2 {
+  margin-bottom: 2rem;
+}
+
+.seopresentation1 .seocontent1 li {
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+
+.seopresentation1 .seoimages {
+  width: 100% !important;
 }
 
 .contact {
@@ -552,7 +591,7 @@ h1::after {
 .contact .card .contactbutton {
   padding: 1rem;
   background-color: #3d75d0;
-  border-radius: 45px;
+  border-radius: 3px;
   border: 2px solid #3d75d0;
   text-align: center;
   font-size: 20px;

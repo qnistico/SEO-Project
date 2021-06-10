@@ -12,7 +12,7 @@ html, body {
 
 p, li {
 	font-family: 'Open Sans', sans-serif;
-	color: #333 ;
+	color: #333;
 	font-weight: 500;
 	line-height: 25.88px;
 }
@@ -112,13 +112,10 @@ flex-flow: column;
 		flex-flow: row wrap;
 		justify-content: center;
 		margin: auto;
-		padding-top: 5px;
-		padding-bottom: 5px;
 		box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
 
 		.boxgriditem {
 			width: 33%;
-			height: 350px;
 			display: flex;
 			flex-flow: column;
 			align-items: center;
@@ -127,12 +124,12 @@ flex-flow: column;
 			position: relative;
 			padding: 30px;
 			text-align: center;
-			i, h3, p {
+			h3, p {
 				margin-bottom: 1rem;
 			}
-			i {
-				font-size: 2.5rem;
-				color: #a6a6a6;
+			img {
+				width: 100%;
+				margin-bottom: 1.5rem;
 			}
 			h3 {
 				font-size: 28px;
@@ -285,19 +282,31 @@ img {
 	}
 }
 
-.experiment1 {
+.seopresentation1 {
 	width: 100%;
+	min-height: 62vh;
+	background-color: #fefefe;
+	padding: 2rem 0 2rem 0;
 	display: flex;
-	flex-flow: row;
-	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	.seopresentation1flex {
+		width: 1280px;
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+margin: auto;
+	
 	img {
-		width: 450px;	 
-		height: 450px;
+		width: 365px !important;
+		height: 300px !important;
 		position: relative;
+		box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.212);
 	}
 	.firstimg {
-		top: 175px;
-		left: 250px;
+		top: 100px;
+		left: 265px;
 		transition: all 0.5s ease;
 	}
 	.secondimg {
@@ -306,12 +315,27 @@ img {
 	}
 	.firstimgadd {
 		top: 0;
-		left: 432px;
+		left: 365px;
+		z-index: 2;
 	}
 	.secondimgadd {
-		top: 216px;
-		right: 216px;
+		top: 100px;
+		right: 100px;
 	}
+}
+.seocontent1 {
+	width: auto;
+	h2 {
+		margin-bottom: 2rem;
+	}
+	li {
+		margin-bottom: 1rem;
+		list-style-type: none;
+	}
+}
+.seoimages {
+	width: 100% !important;
+}
 	
 }
 
@@ -389,7 +413,7 @@ img {
 		.contactbutton {
 			padding: 1rem;
 			background-color: #3d75d0;
-			border-radius: 45px;
+			border-radius: 3px;
 			border: 2px solid #3d75d0;
 			text-align: center;
 			font-size: 20px;

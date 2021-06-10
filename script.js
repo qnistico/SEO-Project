@@ -68,6 +68,11 @@ const sr = ScrollReveal({
     duration: 840,
     delay: 200
 });
+sr.reveal('.bgi-img', {
+    reset: 'true',
+    origin: 'top',
+    delay: '0'
+})
     sr.reveal('.bgi-icon', {
         reset: 'true',
         origin: 'top',
