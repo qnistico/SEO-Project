@@ -176,6 +176,14 @@ sr.reveal('.bgi-img', {
         reset: 'true',
         origin: 'top'
     })
+    sr.reveal('.seo-sr-left',  {
+        reset: 'true',
+        origin: 'left'
+    })
+    sr.reveal('.seo-sr-right',  {
+        reset: 'true',
+        origin: 'right'
+    })
 
  
 

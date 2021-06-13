@@ -9,6 +9,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   overflow-x: hidden !important;
+  scroll-behavior: smooth;
 }
 
 p, li {
@@ -438,6 +439,16 @@ h1::after {
   margin: auto;
 }
 
+.seopresentation1 .seopresentation1flex li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.158);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.158);
+  list-style-type: none;
+  border-radius: 3px;
+}
+
 .seopresentation1 .seopresentation1flex h2 {
   color: #3d75d0;
   font-weight: 800;
@@ -468,17 +479,12 @@ h1::after {
 .customers {
   width: 100%;
   padding: 3rem 0;
-  background: linear-gradient(44deg, #4e88ff, #33c2ae 68%);
 }
 
 .customers h2 {
   font-size: 36px;
   font-weight: 800;
-  color: black;
-}
-
-.customers h6 {
-  color: black;
+  color: #3d75d0;
 }
 
 .customers .customersflex {
@@ -500,19 +506,10 @@ h1::after {
 }
 
 .customers .customersflex .testimonial {
-  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
-          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
   width: 90%;
   margin: auto;
   padding: 1.618rem;
   border-radius: 3px;
-  background: rgba(255, 255, 255, 0.618);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .contact {
@@ -719,7 +716,11 @@ h1::after {
 .logo {
   width: 100px;
   position: relative;
-  top: 6px;
+  top: 12px;
+}
+
+.navbar-brand {
+  padding: 0;
 }
 
 nav {
@@ -755,7 +756,8 @@ nav {
 }
 
 .navbar .dropdown-primary {
-  border: 1px solid black !important;
+  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
 }
 
 .navbar .dropdown-item {
@@ -996,8 +998,17 @@ footer h5 {
   color: white;
 }
 
+footer hr {
+  background-color: #1f658d86;
+}
+
 footer a {
   font-size: 16px;
+}
+
+footer .logofooter {
+  width: 200px;
+  padding-bottom: 1rem;
 }
 
 footer .footerbutton {
@@ -1009,6 +1020,10 @@ footer .footerbutton {
 footer .footerbutton:hover,
 footer .footerbutton:active {
   color: white;
+}
+
+footer li {
+  margin-bottom: 1rem;
 }
 
 .heropages {
@@ -1065,7 +1080,7 @@ footer .footerbutton:active {
   .herocontainer, .boxgrid, .marketimg, .mobileadvert, .contact, .navbar {
     width: 100% !important;
   }
-  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .gallery, .contactflex, .footerflex, .blogflex {
+  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .gallery, .contactflex, .blogflex {
     width: 90vw !important;
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -1079,13 +1094,24 @@ footer .footerbutton:active {
             align-items: center !important;
   }
   .navbar {
-    padding: 0 1rem !important;
+    padding: 1rem !important;
   }
   .navbar .navflex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
+  }
+  .navbar .logo {
+    top: 0;
+  }
+  .navbar .modalbutton {
+    width: 270px;
+    margin: 0 auto !important;
+  }
+  .navbar .dropdown-toggle {
+    width: 270px;
+    margin: 1rem auto !important;
   }
   .herocontainer .heroflex {
     -webkit-box-orient: vertical;
@@ -1196,13 +1222,13 @@ footer .footerbutton:active {
 }
 
 @media screen and (max-width: 1300.98px) {
-  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex, .footerflex {
+  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex {
     width: 90vw !important;
   }
 }
 
 .modalbutton {
-  margin: 0 !important;
+  margin: auto !important;
   background-color: #3d75d0 !important;
   font-weight: 600;
 }
@@ -1219,16 +1245,15 @@ footer .footerbutton:active {
   .navflex {
     display: unset;
   }
-  .navflex .modalta {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
   .navbar {
     background-color: #143d55 !important;
   }
+  .navbar-toggler {
+    float: right;
+  }
+}
+
+.fa-bars {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
