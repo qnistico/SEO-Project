@@ -998,6 +998,9 @@ footer li {
 }
 
 @media screen and (max-width: 550px) {
+  .heroflex h1 {
+    font-size: 24px;
+  }
   .heroflex img {
     display: none;
   }
@@ -1055,9 +1058,6 @@ footer li {
         -ms-flex-flow: column;
             flex-flow: column;
     width: 90% !important;
-  }
-  .herocontainer .heroflex h1 {
-    font-size: 24px;
   }
   .herocontainer .heroflex img {
     width: 100% !important;

@@ -754,6 +754,9 @@ position: relative;
 
 	@media screen and (max-width: 550px) {
 		.heroflex {
+			h1 {
+				font-size: 24px;
+			}
 			img {
 				display: none;
 			}
@@ -801,9 +804,6 @@ position: relative;
 			.heroflex {
 				flex-flow: column;
 				width: 90% !important;
-				h1 {
-					font-size: 24px;
-				}
 				img {
 					width: 100% !important;
 					margin-top: 5rem;
