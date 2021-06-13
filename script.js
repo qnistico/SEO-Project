@@ -66,12 +66,13 @@ $(function () {
 const sr = ScrollReveal({
     distance: '32px',
     duration: 840,
-    delay: 200
+    delay: 100
 });
 sr.reveal('.bgi-img', {
     reset: 'true',
     origin: 'top',
-    delay: '0'
+    delay: '0',
+    distance: '100px'
 })
     sr.reveal('.bgi-icon', {
         reset: 'true',
@@ -190,29 +191,16 @@ sr.reveal('.bgi-img', {
 
  
 
-  /*  document.getElementById("second-img").addEventListener('click', swapFunction);
-
-    function swapFunction() {
-        document.getElementById("second-img").classList.add('secondimgadd');
-        document.getElementById("first-img").classList.add('firstimgadd');
-
-    }
-    */
-
-    /*function swapFunction (img)  {
-        if (img.id == "first-img") {
-        
-        document.getElementById("first-img").classList.toggle("firstimgadd")
-        }
-        else {
-        document.getElementById("second-img").classList.toggle("secondimgadd")
-        }
-        }
-        */
-
+    
+/*
         function swapFunction() {
 
             document.getElementById("first-img").classList.toggle('firstimgadd');
             document.getElementById("second-img").classList.toggle('secondimgadd');
         }
+        function swapFunction2() {
 
+            document.getElementById("third-img").classList.toggle('thirdimgadd');
+            document.getElementById("fourth-img").classList.toggle('fourthimgadd');
+        }
+*/
