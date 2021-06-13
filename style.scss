@@ -456,57 +456,11 @@ margin: auto;
 	color: #3d75d0;
 }
 
-.description {
-	width: 100%;
-	min-height: 100vh;
-	position: relative;
-	margin-top: -140px;
-	z-index: 1;
-	background-color: #f0f2f5;
-	padding-top: 160px;
-	.description-content {
-		width: 1280px;
-		text-align: center;
-		margin: auto;
-		h2 {
-			color: #3d75d0;
-			font-weight: 500;
-			margin-bottom: 3rem;
-		}
-		p {
-			width: 62%;
-			font-size: 20px;
-			font-weight: 500;
-			margin: auto;
-			margin-bottom: 4rem;
-		}
-	}
-	.description-flex {
-		width: 1280px;
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: center;
-		align-items: center;
-		margin: auto;
-		img {
-			width: 50%;
-		}
-		.description-flex-content {
-			width: auto;
-			li {
-				list-style-type: none;
-			}
-		}
-		
-	}
-}
+
+
 
 .br {
 	border-right: 1px solid #e5e5e5;
-}
-
-.bb {
-	border-bottom: 1px solid #e5e5e5;
 }
 
 .logo {
@@ -847,6 +801,9 @@ position: relative;
 			.heroflex {
 				flex-flow: column;
 				width: 90% !important;
+				h1 {
+					font-size: 24px;
+				}
 				img {
 					width: 100% !important;
 					margin-top: 5rem;
@@ -908,6 +865,9 @@ position: relative;
 		.seopresentation1flex2 {
 			flex-flow: column-reverse !important;
 		}
+		.bb {
+			border-bottom: 1px solid #949494;
+		}
 		
 	}
 
@@ -956,7 +916,7 @@ position: relative;
 	.navflex {
 		display: unset;
 		.modalta {
-			
+			width: fit-content !important;
 		}
 	}
 	.navbar {
@@ -964,6 +924,9 @@ position: relative;
 	}
 	.navbar-toggler {
 		float: right;
+	}
+	#dropdownMenu1 {
+		margin: 1rem 0 !important;
 	}
 }
 

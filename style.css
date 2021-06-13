@@ -645,72 +645,8 @@ h1::after {
   color: #3d75d0;
 }
 
-.description {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
-  margin-top: -140px;
-  z-index: 1;
-  background-color: #f0f2f5;
-  padding-top: 160px;
-}
-
-.description .description-content {
-  width: 1280px;
-  text-align: center;
-  margin: auto;
-}
-
-.description .description-content h2 {
-  color: #3d75d0;
-  font-weight: 500;
-  margin-bottom: 3rem;
-}
-
-.description .description-content p {
-  width: 62%;
-  font-size: 20px;
-  font-weight: 500;
-  margin: auto;
-  margin-bottom: 4rem;
-}
-
-.description .description-flex {
-  width: 1280px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-}
-
-.description .description-flex img {
-  width: 50%;
-}
-
-.description .description-flex .description-flex-content {
-  width: auto;
-}
-
-.description .description-flex .description-flex-content li {
-  list-style-type: none;
-}
-
 .br {
   border-right: 1px solid #e5e5e5;
-}
-
-.bb {
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .logo {
@@ -1120,6 +1056,9 @@ footer li {
             flex-flow: column;
     width: 90% !important;
   }
+  .herocontainer .heroflex h1 {
+    font-size: 24px;
+  }
   .herocontainer .heroflex img {
     width: 100% !important;
     margin-top: 5rem;
@@ -1188,6 +1127,9 @@ footer li {
         -ms-flex-flow: column-reverse !important;
             flex-flow: column-reverse !important;
   }
+  .bb {
+    border-bottom: 1px solid #949494;
+  }
 }
 
 @media screen and (max-width: 1199.98px) {
@@ -1245,11 +1187,19 @@ footer li {
   .navflex {
     display: unset;
   }
+  .navflex .modalta {
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
   .navbar {
     background-color: #143d55 !important;
   }
   .navbar-toggler {
     float: right;
+  }
+  #dropdownMenu1 {
+    margin: 1rem 0 !important;
   }
 }
 
