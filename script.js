@@ -69,87 +69,70 @@ const sr = ScrollReveal({
     delay: 100
 });
 sr.reveal('.bgi-img', {
-    reset: 'true',
     origin: 'top',
     delay: '0',
     distance: '100px'
 })
     sr.reveal('.bgi-icon', {
-        reset: 'true',
-        origin: 'top',
+            origin: 'top',
         delay: '0'
     })
     
     sr.reveal('.bgi-h3', {
-        reset: 'true',
-        origin: 'top',
+            origin: 'top',
         delay: '0'
     })
     
     sr.reveal('.bgi-p', {
-        reset: 'true',
-        origin: 'top',
+            origin: 'top',
         delay: '0'
     })
     
     sr.reveal('.boxgrid-button', {
-        reset: 'true',
-        origin: 'top',
+            origin: 'top',
         delay: '0'
     })
     
     sr.reveal('.mic-h2',  {
-        reset: 'true',
-        origin: 'top'
+            origin: 'top'
     })
     sr.reveal('.mic-p',  {
-        reset: 'true',
-        origin: 'top'
+            origin: 'top'
     })
     
     sr.reveal('.li-1',  {
-        reset: 'true',
-        origin: 'right'
+            origin: 'right'
     })
     sr.reveal('.li-2',  {
-        reset: 'true',
-        origin: 'right'
+            origin: 'right'
     })
     sr.reveal('.li-3',  {
-        reset: 'true',
-        origin: 'right'
+            origin: 'right'
     })
     sr.reveal('.li-4',  {
-        reset: 'true',
-        origin: 'right'
+            origin: 'right'
     })
     sr.reveal('.li-5',  {
-        reset: 'true',
-        origin: 'right'
+            origin: 'right'
     })
     sr.reveal('.marketimg-button',  {
-        reset: 'true',
-        origin: 'bottom'
+            origin: 'bottom'
     })
     sr.reveal('.mobileadvert-1',  {
         origin: 'left',
-        reset: 'true',
-        distance: '61px'
+            distance: '61px'
     })
     sr.reveal('.mobileadvert-2',  {
         origin: 'top',
-        reset: 'true',
-        distance: '61px'
+            distance: '61px'
     })
     sr.reveal('.mobileadvert-3',  {
         origin: 'bottom',
-        reset: 'true',
-        distance: '61px'
+            distance: '61px'
     })
     sr.reveal('.mobileadvert-4',  {
         origin: 'right',
-        reset: 'true',
-        distance: '61px'
+            distance: '61px'
     })
     
     sr.reveal('.mobileadvert-h2',  {
@@ -159,30 +142,24 @@ sr.reveal('.bgi-img', {
     
     
     sr.reveal('.blog-h2',  {
-        reset: 'true',
-        origin: 'top'
+            origin: 'top'
     })
     sr.reveal('.contactcontent',  {
-        reset: 'true',
-        distance: '100px',
+            distance: '100px',
         origin: 'left'
     })
     sr.reveal('.card',  {
-        reset: 'true',
-        distance: '100px',
+            distance: '100px',
         origin: 'right'
     })
     sr.reveal('.sr-p',  {
-        reset: 'true',
-        origin: 'top'
+            origin: 'top'
     })
     sr.reveal('.seo-sr-left',  {
-        reset: 'true',
-        origin: 'left'
+            origin: 'left'
     })
     sr.reveal('.seo-sr-right',  {
-        reset: 'true',
-        origin: 'right'
+            origin: 'right'
     })
 
  
