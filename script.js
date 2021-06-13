@@ -162,22 +162,6 @@ sr.reveal('.bgi-img', {
         reset: 'true',
         origin: 'top'
     })
-    
-    sr.reveal('.blogitem-1',  {
-        reset: 'true',
-        delay: '250',
-        origin: 'top'
-    })
-    sr.reveal('.blogitem-2',  {
-        reset: 'true',
-        delay: '375',
-        origin: 'top'
-    })
-    sr.reveal('.blogitem-3',  {
-        reset: 'true',
-        delay: '500',
-        origin: 'top'
-    })
     sr.reveal('.contactcontent',  {
         reset: 'true',
         distance: '100px',
@@ -187,6 +171,10 @@ sr.reveal('.bgi-img', {
         reset: 'true',
         distance: '100px',
         origin: 'right'
+    })
+    sr.reveal('.sr-p',  {
+        reset: 'true',
+        origin: 'top'
     })
 
  

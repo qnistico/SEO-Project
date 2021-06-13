@@ -321,7 +321,7 @@ h1::after {
 
 .blog {
   width: 100%;
-  background-color: #fff;
+  background-color: #f0f2f5;
   padding: 3rem 0 5rem 0;
 }
 
@@ -366,7 +366,7 @@ h1::after {
 }
 
 .blog .blogflex .blogitem .blogitemcontent {
-  padding: 1rem;
+  padding: 1.618rem;
 }
 
 .blog .blogflex .blogitem .blogitemcontent .blogheader {
@@ -463,6 +463,56 @@ h1::after {
 .seopresentation1 .seocontent1 li {
   margin-bottom: 1rem;
   list-style-type: none;
+}
+
+.customers {
+  width: 100%;
+  padding: 3rem 0;
+  background: linear-gradient(44deg, #4e88ff, #33c2ae 68%);
+}
+
+.customers h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: black;
+}
+
+.customers h6 {
+  color: black;
+}
+
+.customers .customersflex {
+  width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.customers .customersflex .testimonial {
+  -webkit-box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+          box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+  width: 90%;
+  margin: auto;
+  padding: 1.618rem;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.618);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .contact {
@@ -710,6 +760,7 @@ nav {
 
 .navbar .dropdown-item {
   color: #333 !important;
+  font-weight: 500 !important;
 }
 
 .navbar a {
@@ -1114,7 +1165,7 @@ footer .footerbutton:active {
 }
 
 @media screen and (max-width: 1199.98px) {
-  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex {
+  .heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex, .customersflex {
     width: 90vw !important;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;

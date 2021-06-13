@@ -228,7 +228,7 @@ padding: 2rem 0 2rem 0;
 
 .blog {
 	width: 100%;
-	background-color: #fff;
+	background-color: #f0f2f5;
 	padding: 3rem 0 5rem 0;
 	h2 {
 		color: #3d75d0;
@@ -255,7 +255,7 @@ img {
 	border-top-left-radius: 3px;
 }
 .blogitemcontent {
-	padding: 1rem;
+	padding: 1.618rem;
 	.blogheader {
 		font-size: 24px;
 		font-weight: 700;
@@ -319,6 +319,42 @@ margin: auto;
 		list-style-type: none;
 	}
 }
+}
+
+.customers {
+	width: 100%;
+	padding: 3rem 0;
+	background: linear-gradient(44deg,#4e88ff,#33c2ae 68%);
+
+	h2 {
+		font-size: 36px;
+		font-weight: 800;
+		color: black;
+	}
+	h6 {
+color: black;
+	}
+	.customersflex {
+		width: 1280px;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		.testimonial {
+			box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+			width: 90%;
+			margin: auto;
+			padding: 1.618rem;
+			border-radius: 3px;
+			background: rgba(255, 255, 255, 0.618);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+		}
+	}
 }
 
 .contact {
@@ -508,6 +544,7 @@ nav {
 	}
 	.dropdown-item {
 		color: #333 !important;
+		font-weight: 500 !important;
 	}
 	a {
 		color: white;
@@ -853,7 +890,7 @@ position: relative;
 	}
 
 	@media screen and (max-width: 1199.98px) {
-		.heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex {
+		.heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex, .customersflex {
 			width: 90vw !important;
 			justify-content: center !important;
 			align-items: center !important;
