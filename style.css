@@ -999,7 +999,7 @@ footer li {
 
 @media screen and (max-width: 550px) {
   .heroflex h1 {
-    font-size: 24px;
+    font-size: 32px !important;
   }
   .heroflex img {
     display: none;
