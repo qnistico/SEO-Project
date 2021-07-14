@@ -490,13 +490,15 @@ nav {
 	transition: all 0.5s ease;
 	padding: 4px 0 4px 0 !important;
 	.dropdown-toggle {
-		background-color: #3d75d0 !important;
 		color: white;
 		font-weight: 600;
+		box-shadow: none;
 	}
 	.dropdown-primary {
 		box-shadow: 0px 12px 40px rgba(100, 100, 100, 0.158);
+		
 	}
+	
 	.dropdown-item {
 		color: #333 !important;
 		font-weight: 500 !important;
@@ -761,6 +763,7 @@ position: relative;
 				display: none;
 			}
 		}
+		
 	}
 
 	
@@ -893,11 +896,19 @@ position: relative;
 		.boxgriditem {
 			height: auto !important;
 		}
+		.dropdown-toggle {
+			padding: 10px 0;
+			text-align: left;
+		}
 	}
 
 	@media screen and (max-width: 1300.98px) {
 		.heroflex, .boxgridflex, .description-content, .description-flex, .marketimgflex, .mobileadvertflex, .contactflex {
 			width: 90vw !important;
+		}
+		.navbar {
+			padding: 4px 20px !important;
+
 		}
 	}
 .modalbutton {
